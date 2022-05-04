@@ -8,7 +8,7 @@ mv codeigniter4-CodeIgniter4-202f41a codeigniter
 
 cp -R codeigniter /var/www/html/codeigniter
 
-service apache2 restart
+systemctl restart apache2.service
 
-service apache2 status
+systemctl status apache2.service
 
