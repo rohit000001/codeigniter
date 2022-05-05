@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo apt-get update -y
-sudo apt-get upgrade -y
 sudo apt-get install unzip
 wget https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/refs/tags/3.1.13
 unzip 3.1.13
