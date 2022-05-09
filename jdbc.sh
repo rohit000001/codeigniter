@@ -7,3 +7,4 @@ sudo apt-get install -y default-libmysqlclient-dev       #to install lib of mysq
 #ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'qwerty123';
 #FLUSH PRIVILEGES;
 #sudo mysql_secure_installation
+#https://dev.mysql.com/downloads/connector/j/ 
